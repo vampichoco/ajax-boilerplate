@@ -1,0 +1,68 @@
+body{
+    background-color: #FFDC68;
+    background-image:url(img/city2.jpg);
+    color: #583B7E;
+    background-position: center;
+    background-attachment:fixed;
+
+    padding-left:100px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+}
+
+.service{
+    text-align: center;
+    padding-top:0px;
+    padding-bottom:15px;
+   
+} 
+
+.service-title{
+    font-size:xx-large; 
+    font-family: 'Raleway', sans-serif;
+    overflow: hidden;
+    padding-top:5px;
+    padding-bottom:5px;
+
+} 
+
+
+.service-footer{
+    text-align: center;
+} 
+
+.service-button{
+    padding:5px;
+    margin:5px;
+    border-radius: 4px;
+} 
+
+.service-description{
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+
+
+.header{
+    text-align: center;
+     
+    background-color:transparent; 
+    color: white;
+    overflow: hidden;
+    min-height: 220px;
+    background-position: center;
+    position: relative;
+}
+
+.sub-header{
+    background-color:transparent;
+    text-align: left;
+    color: white;
+    font-size:large;
+    padding-left: 5px;
+    bottom:0px;
+    position:absolute;
+    font-size: x-large;
+    font-family: 'Raleway', sans-serif;
+}
