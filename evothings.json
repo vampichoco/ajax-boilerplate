@@ -1,0 +1,12 @@
+{
+  "uuid": "23f2b797-d237-4099-8987-e1e4f8b6a57f",
+  "name": "projectech",
+  "title": "projectech",
+  "description": "App oneline description.",
+  "long-description": "App long description.",
+  "version": "",
+  "author-name": "Evothings",
+  "author-email": "build@evothings.com",
+  "author-url": "https://evothings.com",
+  "cordova-id": "com.evothings.samples.projectech"
+}

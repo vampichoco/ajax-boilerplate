@@ -1,12 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
 body{
     background-color: #FFDC68;
-    background-image:url(img/city2.jpg);
+    background-image:url(img/background_4.png);
     color: #583B7E;
     background-position: center;
+    background-size: 100%;
     background-attachment:fixed;
 
-    padding-left:100px;
-    padding-right: 100px;
+    
     padding-bottom: 100px;
 }
 
@@ -50,7 +52,6 @@ body{
     background-color:transparent; 
     color: white;
     overflow: hidden;
-    min-height: 220px;
     background-position: center;
     position: relative;
 }
@@ -61,8 +62,28 @@ body{
     color: white;
     font-size:large;
     padding-left: 5px;
-    bottom:0px;
-    position:absolute;
-    font-size: x-large;
+    
     font-family: 'Raleway', sans-serif;
+}
+
+@media screen and (max-width: 800px){
+    body {
+        padding-left:20px;
+        padding-right:20px;
+    }
+}
+
+nav ul li a{
+  color: black;
+}  
+
+nav{
+    padding-left: 100px; 
+    padding-right:100px;
+}
+
+.main-container{
+    padding-left:100px;
+    padding-right:100px;
+    padding-top:75px;
 }
