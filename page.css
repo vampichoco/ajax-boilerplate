@@ -2,7 +2,7 @@
 
 body{
     background-color: #FFDC68;
-    background-image:url(img/background_4.png);
+    background-image:url(img/city2.jpg);
     color: #583B7E;
     background-position: center;
     background-size: 100%;
@@ -16,7 +16,6 @@ body{
     text-align: center;
     padding-top:0px;
     padding-bottom:15px;
-   
 } 
 
 .service-title{
@@ -27,6 +26,10 @@ body{
     padding-bottom:5px;
 
 } 
+
+.det-style{
+    padding:20px;
+}
 
 
 .service-footer{

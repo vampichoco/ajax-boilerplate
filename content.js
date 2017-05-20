@@ -3,7 +3,7 @@ var content = {
             id: "web",
             name: "Web", 
             description: "Dise&ntilde;o e implementaci&oacute;n de aplicaciones web y apps para mobiles", 
-            url: "http://victorhugo.biz",
+            url: "index.html?page=web",
             style: {color: "#00DFFC", bgcolor: "#343838"}
         }, 
       "manufactury": {
@@ -11,6 +11,24 @@ var content = {
             name: "Manufacturing", 
             description: "Dise&ntilde;o y venta de impresoras 3D y servicio de impresi&oacute;n 3D", 
             url: "http://www.sadzee.cloud/blog.html",
-            style: {color: "#BF4D28", bgcolor: "#F6F7BD"}
+            style: {color: "white", bgcolor: "#547980"}
         }
     }
+
+var details = {
+    web: {
+        id: "web", 
+        title: "Desarrollo web",
+        style: {
+            color: "#00DFFC", 
+            bgcolor: "#343838" 
+        }, 
+        content: `
+        <ul>
+            <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+            <li>Aliquam tincidunt mauris eu risus.</li>
+            <li>Vestibulum auctor dapibus neque.</li>
+        </ul>
+        `
+    }
+}

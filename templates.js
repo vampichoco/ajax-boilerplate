@@ -32,6 +32,23 @@ var templates = {
     .service-{{id}}-description{
     color:{{style.color}}
     }
-</style>
+</style>, 
+    `, 
+    "details": `
+    <div id="details-{{id}}" class="det-style-{{id}} det-style">
+        <h3>{{title}}</h3>
+        <article>
+            {{{content}}}
+        </article>
+    </div>
+    `, 
+    "det-style": `
+    <style>
+        .det-style-{{id}}{
+            color: {{style.color}}; 
+            background-color: {{style.bgcolor}};
+            border: 4px solid {{style.color}};
+        }
+    </style>
     `
 }
