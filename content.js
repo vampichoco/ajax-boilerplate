@@ -13,7 +13,7 @@ var content = {
             url: "http://www.sadzee.cloud/blog.html",
             style: {color: "white", bgcolor: "#547980"}
         }
-    }
+}
 
 var details = {
     web: {
@@ -21,7 +21,9 @@ var details = {
         title: "Desarrollo web",
         style: {
             color: "#00DFFC", 
-            bgcolor: "#343838" 
+            bgcolor: "#343838", 
+            navbar: "", 
+            bgimage: "" 
         }, 
         content: `
         <ul>
@@ -29,6 +31,10 @@ var details = {
             <li>Aliquam tincidunt mauris eu risus.</li>
             <li>Vestibulum auctor dapibus neque.</li>
         </ul>
-        `
+        `, 
+        menu: [
+            {text: "Catalogo", url: "http://sadzee.cloud"          }, 
+            {text: "twitter" , url: "https://twitter.com/quirpie/" }
+        ]
     }
 }

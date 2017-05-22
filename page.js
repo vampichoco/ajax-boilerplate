@@ -53,6 +53,14 @@ function drawPage(page, target){
     var renderedStyle = Mustache.render(styleTemplate, content) 
 
     $('head').append(renderedStyle)
+
+    $.each(content.menu, function(index, val){
+        var li = $('<li></li>');
+        li.html($('<a></a>').html(val.text).attr("href", val.url));
+        $('#nav-mobile').append(li);
+    })
+
+
     
 }
 
