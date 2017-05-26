@@ -69,6 +69,12 @@ body{
     font-family: 'Raleway', sans-serif;
 }
 
+.edit{
+    background-color:white;
+    padding:10px;
+    border-radius: 5px;
+}
+
 @media screen and (max-width: 800px){
     body {
         padding-left:20px;

@@ -26,11 +26,21 @@ function drawContent(key, template, target){
 }
 
 function homepage(){
-    drawContent('web', 'service', '#services')
-    drawContent('web', 'service-style', 'head')
 
-    drawContent('manufactury', 'service', '#services')
-    drawContent('manufactury', 'service-style', 'head')
+    $.each(content, function(index, val){
+        var item = content[index]
+
+       
+        
+        drawContent(index, 'service', '#services')
+        drawContent(index, 'service-style', 'head')
+    })
+
+    //drawContent('web', 'service', '#services')
+    //drawContent('web', 'service-style', 'head')
+
+    //drawContent('manufactury', 'service', '#services')
+    //drawContent('manufactury', 'service-style', 'head')
 } 
 
 function drawPage(page, target){

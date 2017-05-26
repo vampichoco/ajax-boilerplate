@@ -47,7 +47,7 @@ var templates = {
         .det-style-{{id}}{
             color: {{style.color}}; 
             background-color: {{style.bgcolor}};
-            border: 4px solid {{style.color}};
+            border: 4px solid {{style.border}};
         }
     </style>
     `
